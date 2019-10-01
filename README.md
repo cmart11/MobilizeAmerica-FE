@@ -7,7 +7,7 @@ To start the server use the 'npm run start-dev' command
 ## Running Tests
 To run tests use the 'npm test' command
 
-## Future Considerations
+## Future Considerations
 If allowed more time, there are a few areas that could do with more work:
 
 – The most urgent feature I would like to implement is introducing a state-management library like Redux. The current implementation of the app is making a fetch request each time we visit the Home page, the single event page, and the Map view. By introducing Redux we can convert these to 'dumb' components that access state by connecting them to a Redux store.
@@ -17,5 +17,6 @@ If allowed more time, there are a few areas that could do with more work:
 – Write more unit tests.
 
 
-## Thank you,
-## Cristian Martinez
+
+Thank you,
+Cristian Martinez
