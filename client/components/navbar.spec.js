@@ -17,4 +17,5 @@ describe('Navbar', () => {
         const navbar = shallow(<Navbar />);
         expect(navbar.find('li')).to.have.length(2);
     });
+
 });
