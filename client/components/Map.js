@@ -33,7 +33,7 @@ export default function Map() {
         <div>
             <ReactMapGL
                 {...viewport}
-                mapboxApiAccessToken=""
+                mapboxApiAccessToken="pk.eyJ1IjoiY21hcnQxMSIsImEiOiJjazE2cmw1cHIwMDU4M21tcGxpa2xoMHRwIn0.PeXKCC0Hjj3j4PJe_z0-uA"
                 onViewportChange={viewport => {
                     setViewport(viewport);
                 }}
