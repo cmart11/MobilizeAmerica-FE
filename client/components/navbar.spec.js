@@ -9,7 +9,7 @@ const adapter = new Adapter();
 enzyme.configure({ adapter });
 
 describe('Navbar', () => {
-    it('renders all the ul tags', () => {
+    it('renders all the ul tag', () => {
         const navbar = shallow(<Navbar />);
         expect(navbar.find('ul')).to.have.length(1);
     });
@@ -17,5 +17,4 @@ describe('Navbar', () => {
         const navbar = shallow(<Navbar />);
         expect(navbar.find('li')).to.have.length(2);
     });
-
 });
