@@ -1,7 +1,7 @@
-# Overview
+# Overview
 In order to render out a list view of the event info from the provided MA API endpoint I've decided you create a single page react app.I opted to use webpack-dev-server as a means to create a quick way to render static files and start writing my client side application. I wrote tests using Enzyme and Jest as my test runner. I'm bundling my files using Webpack and transpiling to ES5 JS with Babel.
 
-## Running the Server
+## Running Server
 To start the server use the 'npm run start-dev' command
 
 ## Running Tests
