@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top{
+    position: fixed;
+    background-color: #00aeed;
+    height: 50px;
+    z-index: 999;
+    width: 100vw;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li{
+    padding: 0 100px;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+#event-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vw;
+    margin-top: 100px;
+}
+
+.event-thumbnail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+.event-thumbnail:hover{
+    background-color: #00aeed;
+    color:#fff;
+}
+
+.thumbnail-info {
+    text-align: center;
+    padding: .5rem;
+}
+
+.event-thumbnail > h3{
+    width: 500px;
+    color:#fff;
+    background-color: #fb595b;
+    padding: 10px 0 10px 0;
+}
+
+.crop{
+    width: 500px;
+    height: 275px;
+    overflow: hidden;
+    background-color: #fb595b;
+    position: relative
+}
+
+.thumbnail-img{
+    max-width: 500px;
+    max-height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: #00aeed;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    margin: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+#event-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 15%;    
+}
+
+.event-info{
+    max-width:500px;
+    margin-left: 30px;
+    margin-top: 50px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.info-right{
+    max-height: 700px;
+    overflow: scroll
+}
+
+.event-info-img{
+    display: block;
+    max-height: auto;
+    width: 100%;
+}
+
+.event-info-p{
+    padding-top: 5%;
+    font-size: 1.2rem;
+    line-height: 2rem
+}
+
+.event-info-h3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2.2rem;
+}
+
+/* Map */
+
+.marker{
+    width: 50px;
+    height: 50px;
+    background-color: #fb595b;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
